@@ -1,2 +1,3 @@
-FROM ubuntu
-RUN bash
+FROM ubuntu:groovy
+#
+CMD ["bash"]
