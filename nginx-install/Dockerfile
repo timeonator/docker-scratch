@@ -1,2 +1,3 @@
-FROM nginx
-COPY build /usr/share/nginx/html
+#
+FROM nginx:latest
+COPY ./dist/* /usr/share/nginx/html/
